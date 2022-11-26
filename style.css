@@ -29,12 +29,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
     margin-right: 150px;
-    margin-left: 60px;
     border-radius: 5px;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    background: transparent;
     border: transparent;
+}
+
+.lupa{
+    margin-left: 20px;
 }
 
 .search_box{
@@ -50,7 +52,7 @@
     margin-top: 60px;
     margin-right: 100px;
     border-radius: 5px;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    background: transparent;
     border: 0.5px solid rgba(96, 96, 96, 0.3);
 }
 
