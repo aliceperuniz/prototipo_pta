@@ -9,11 +9,12 @@
 .nav_bar{
     background-color:ghostwhite;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1270px;
+    max-width: 1263px;
     height: 199px;
     opacity: 0.5;
     position: fixed;
@@ -24,12 +25,12 @@
 }
 
 .search_box input{
-    height: 40px;
-    width: 400px;
+    height: 35px;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 150px;
+    margin-right: 140px;
     border-radius: 5px;
     background: transparent;
     border: transparent;
@@ -41,10 +42,7 @@
 
 .search_box{
     max-height: 50px;
-    max-width: 550px;
-    min-width: 20px;
-    min-height: 20px;
-    width: 350px;
+    width: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,8 +74,8 @@
 
 .box_brig{
     background-color: rgba(255, 255, 255, 0.6);
-    height: 230px;
-    width: 230px;
+    height: 220px;
+    width: 220px;
     left: 464px;
     top: 551px;
     border-radius: 16px;
@@ -92,8 +90,8 @@
 
 .box_morango{
     background-color: rgba(255, 255, 255, 0.6);
-    height: 230px;
-    width: 230px;
+    height: 220px;
+    width: 220px;
     left: 464px;
     top: 551px;
     border-radius: 16px;
@@ -108,7 +106,7 @@
 .box_choco{
     background-color: rgba(255, 255, 255, 0.6);
     height: 490px;
-    width: 280px;
+    width: 270px;
     left: 736px;
     top: 279px;
     border-radius: 16px;
@@ -122,8 +120,8 @@
 
 .box_minions{
     background-color: rgba(255, 255, 255, 0.6);
-    height: 230px;
-    width: 230px;
+    height: 220px;
+    width: 220px;
     left: 464px;
     top: 551px;
     border-radius: 16px;
@@ -137,8 +135,8 @@
 
 .box_colorix{
     background-color: rgba(255, 255, 255, 0.6);
-    height: 230px;
-    width: 230px;
+    height: 220px;
+    width: 220px;
     left: 464px;
     top: 551px;
     border-radius: 16px;
@@ -156,7 +154,7 @@
 .box_tablito{
     background-color: rgba(255, 255, 255, 0.6);
     height: 490px;
-    width: 280px;
+    width: 270px;
     left: 114px;
     top: 279px;
     border-radius: 16px;
@@ -234,4 +232,39 @@
 
 .frase{
     padding-top: 20px;
+}
+
+@media (max-width: 850px) {
+    .search_box{
+        width: 25px;
+        height: 25px;
+    }
+    .search_box img{
+        color: transparent;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search_box input{
+        display: none;
+    }
+    .lupa{
+        margin-left: 5px;
+    }
+    .logo_footer{
+        display: none;
+    }
+    .redes{
+        margin-left: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 165px;
+    }
+    .frase{
+        margin-left: 80px;
+        margin-top: 14px;
+    }
 }
