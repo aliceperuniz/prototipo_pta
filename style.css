@@ -14,7 +14,6 @@
     justify-content: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1263px;
     height: 199px;
     opacity: 0.5;
     position: fixed;
@@ -56,7 +55,7 @@
 
 .galeria{
     background-color: #ede8e8;
-    max-width: 1270px; 
+    max-width: 4000px; 
     max-height: 4000px; 
     min-width: 283.31px;
     min-height: 326.32;
@@ -127,6 +126,7 @@
     border-radius: 16px;
     padding: 20px;
     margin: 20px;
+    margin-top: 35px;
 }
 .minions :hover{
     transform: scale(1.14);
@@ -145,6 +145,7 @@
     display: flex;
     justify-content: flex-end;
     margin: 20px;
+    margin-top: 35px;
 }
 .colorix :hover{
     transform: scale(1.14);
@@ -196,7 +197,7 @@
 .footer{
     background: rgb(227, 223, 223);
     padding: 10px;
-    height: 155.01638793945312px;
+    height: 190px;
     width: 100%;
     left: 0px;
     top: 868.9835815429688px;
@@ -204,7 +205,6 @@
     display: flex;
     justify-content: center;
     justify-content: space-between;
-
 }
 
 .butt{
@@ -248,11 +248,12 @@
         margin-left: 50px;
         display: flex;
         justify-content: space-between;
+        margin-top: 0px;
     }
     .footer{
         display: flex;
         flex-direction: column;
-        height: 165px;
+        height: 180px;
     }
     .frase{
         margin-left: 60px;
