@@ -360,6 +360,9 @@
         background: transparent;
         border: transparent;
     }
+    .bloco_2{
+        flex-direction: row-reverse;
+    }
 }
 
 @media (min-width: 800px){
